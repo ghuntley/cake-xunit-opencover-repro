@@ -1,0 +1,1870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="24" visitedSequencePoints="13" numBranchPoints="10" visitedBranchPoints="6" sequenceCoverage="54.17" branchCoverage="60" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="3" numClasses="5" visitedMethods="6" numMethods="10" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="34-11-C5-40-14-DD-EF-29-B9-4B-61-0B-E0-44-66-77-87-26-3C-F0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7595548Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D6-20-D0-CF-21-B5-CD-3C-63-A0-3F-85-84-C7-3C-3E-1B-DF-1F-AD">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.console.exe</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A7-58-FE-BD-E7-A0-1D-C9-FD-27-C1-11-E2-74-AE-E4-55-1D-FB-81">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.reporters.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-B0-08-80-0B-A5-95-C7-FA-79-33-2C-55-FC-56-DE-B2-D4-6F-B8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-BC-31-F6-43-B2-A8-0E-53-0D-F9-0B-70-B7-5D-8F-D4-C6-52-05">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:47.9159862Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-28-6B-70-63-9D-E4-57-87-05-C1-81-C5-79-94-3B-83-FA-E0-DD">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7283009Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-3D-7B-FA-41-15-98-9E-BD-CB-6E-11-CC-4E-F2-49-2D-A6-58-72">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8218895Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\a7e26f02-02a4-48f6-828c-5e3059684cc3\a7e26f02-02a4-48f6-828c-5e3059684cc3\assembly\dl3\24cf23b1\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:36.1451923Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="50-E6-13-D2-2E-66-6B-58-BA-85-CE-5E-88-A6-CF-7C-EF-C7-CF-59">
+      <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\silentFailure.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:39:21.2709121Z</ModuleTime>
+      <ModuleName>silentFailure</ModuleName>
+      <Files>
+        <File uid="1" fullPath="c:\dropbox\oss\ghuntley\cakerepro\silentFailure\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>silentFailure.Class1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldFail()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="2" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="8" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldPass()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="4" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="5" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="6" ordinal="2" offset="8" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="4" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void silentFailure.Class1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-EF-2B-1F-03-26-33-E1-72-9D-C5-D3-59-F5-BE-43-D3-AD-59-0C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8687681Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-D7-B7-E6-9C-40-3C-A4-23-F6-67-C3-29-C8-5B-BB-BE-F2-39-F6">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0562844Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-86-69-4D-80-4A-CA-C6-5F-7D-BF-18-C0-2F-E0-CA-01-E6-00-4D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections.Concurrent\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-79-A5-A5-5E-89-A9-B1-A2-5F-4E-A0-A3-18-92-DA-E0-D6-FC-27">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-09-E4-21-D0-B0-0D-A2-4F-85-8E-48-D6-7A-C3-82-BD-FE-F6-E4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0250313Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-1C-2B-BC-86-BC-F5-2E-9C-B8-05-C1-49-A8-14-52-72-40-8D-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq.Expressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-87-8B-71-7B-E8-74-6B-10-08-FD-B8-44-BB-E3-B0-62-71-6B-59">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.9783225Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="16-A8-3D-D3-CC-49-33-89-FB-E2-58-84-F9-F9-AB-20-03-9C-06-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\326034a6-f710-4f86-98ac-ff10fd90c979\326034a6-f710-4f86-98ac-ff10fd90c979\assembly\dl3\93ff8566\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:37.754191Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-E8-B2-FE-95-57-11-09-81-41-26-29-C0-D2-3C-34-6A-42-A5-63">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2016-06-11T13:14:28Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\aac2cb12-45de-472d-a5ab-d92ca8a7e0f6\aac2cb12-45de-472d-a5ab-d92ca8a7e0f6\assembly\dl3\02844d32\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:38.0481938Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2016-08-08T22:37:58Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\17ddd405-0fc0-41c4-9015-c1e3924cd12e\17ddd405-0fc0-41c4-9015-c1e3924cd12e\assembly\dl3\d2877d7b\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:38.3197107Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\c02c43ce-0b4d-46ab-8716-7f6945533c01\c02c43ce-0b4d-46ab-8716-7f6945533c01\assembly\dl3\9abc4d89\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:38.5961918Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\c02c43ce-0b4d-46ab-8716-7f6945533c01\c02c43ce-0b4d-46ab-8716-7f6945533c01\assembly\dl3\eebb9854\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:38.8402062Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\0587d5b1-1fe8-47d7-a88a-0e1a8823403a\0587d5b1-1fe8-47d7-a88a-0e1a8823403a\assembly\dl3\59ba6931\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:38.9091958Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\0587d5b1-1fe8-47d7-a88a-0e1a8823403a\0587d5b1-1fe8-47d7-a88a-0e1a8823403a\assembly\dl3\33e49e3f\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:39.1312663Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\71434c76-b67f-430d-86c0-c07eb860ac2b\71434c76-b67f-430d-86c0-c07eb860ac2b\assembly\dl3\758671ea\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:39.2352677Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="D4-B4-CA-C4-04-42-B6-62-B2-C4-5B-60-5B-AA-CB-88-EB-5C-84-56">
+      <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\silentFailure.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:54:49.0573266Z</ModuleTime>
+      <ModuleName>silentFailure</ModuleName>
+      <Files>
+        <File uid="3" fullPath="C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>silentFailure.Class1</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldFail()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="9" ordinal="1" offset="6" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="8" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldPass()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="11" ordinal="1" offset="6" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="10" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void silentFailure.Class1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="12" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\53dcd5a2-652d-4f28-a783-6495297cc1c6\53dcd5a2-652d-4f28-a783-6495297cc1c6\assembly\dl3\88555cac\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:39.6346397Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-E8-B2-FE-95-57-11-09-81-41-26-29-C0-D2-3C-34-6A-42-A5-63">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2016-06-11T13:14:28Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\2932bc7d-1315-448c-a865-532be0271c24\2932bc7d-1315-448c-a865-532be0271c24\assembly\dl3\f243bb3d\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:39.992138Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2016-08-08T22:37:58Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\b9138e76-571f-4389-8044-299d5d8efd18\b9138e76-571f-4389-8044-299d5d8efd18\assembly\dl3\10dca6b2\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:40.3451404Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\aefe96d7-ca55-4be9-a955-692f98ae534d\aefe96d7-ca55-4be9-a955-692f98ae534d\assembly\dl3\043591ac\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:40.7046393Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\aefe96d7-ca55-4be9-a955-692f98ae534d\aefe96d7-ca55-4be9-a955-692f98ae534d\assembly\dl3\25cffa39\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:40.9101423Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\791d9940-fb94-431d-8919-d2d6e15cafc6\791d9940-fb94-431d-8919-d2d6e15cafc6\assembly\dl3\0ae0959a\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:40.9751413Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\791d9940-fb94-431d-8919-d2d6e15cafc6\791d9940-fb94-431d-8919-d2d6e15cafc6\assembly\dl3\a667c6ac\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:55:41.1846441Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-2B-88-EE-03-F5-A3-0E-59-E8-16-7B-B8-60-BF-B7-B2-44-3A-68">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.SqlXml\v4.0_4.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Data.SqlXml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>System.Xml.Xsl.CompiledQuery.1</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-11-C5-40-14-DD-EF-29-B9-4B-61-0B-E0-44-66-77-87-26-3C-F0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7595548Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D6-20-D0-CF-21-B5-CD-3C-63-A0-3F-85-84-C7-3C-3E-1B-DF-1F-AD">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.console.exe</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A7-58-FE-BD-E7-A0-1D-C9-FD-27-C1-11-E2-74-AE-E4-55-1D-FB-81">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.reporters.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-B0-08-80-0B-A5-95-C7-FA-79-33-2C-55-FC-56-DE-B2-D4-6F-B8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-BC-31-F6-43-B2-A8-0E-53-0D-F9-0B-70-B7-5D-8F-D4-C6-52-05">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:47.9159862Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-28-6B-70-63-9D-E4-57-87-05-C1-81-C5-79-94-3B-83-FA-E0-DD">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7283009Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-3D-7B-FA-41-15-98-9E-BD-CB-6E-11-CC-4E-F2-49-2D-A6-58-72">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8218895Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\324ca0cb-a8da-4635-8575-91b1fa9e4150\324ca0cb-a8da-4635-8575-91b1fa9e4150\assembly\dl3\4a0576fe\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:41.7325174Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="50-E6-13-D2-2E-66-6B-58-BA-85-CE-5E-88-A6-CF-7C-EF-C7-CF-59">
+      <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\silentFailure.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:39:21.2709121Z</ModuleTime>
+      <ModuleName>silentFailure</ModuleName>
+      <Files>
+        <File uid="4" fullPath="c:\dropbox\oss\ghuntley\cakerepro\silentFailure\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>silentFailure.Class1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="66.67" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldFail()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="13" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="14" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" offset="8" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="13" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldPass()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="16" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="17" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="18" ordinal="2" offset="8" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="16" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void silentFailure.Class1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="19" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-EF-2B-1F-03-26-33-E1-72-9D-C5-D3-59-F5-BE-43-D3-AD-59-0C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8687681Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-D7-B7-E6-9C-40-3C-A4-23-F6-67-C3-29-C8-5B-BB-BE-F2-39-F6">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0562844Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-86-69-4D-80-4A-CA-C6-5F-7D-BF-18-C0-2F-E0-CA-01-E6-00-4D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections.Concurrent\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-79-A5-A5-5E-89-A9-B1-A2-5F-4E-A0-A3-18-92-DA-E0-D6-FC-27">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-09-E4-21-D0-B0-0D-A2-4F-85-8E-48-D6-7A-C3-82-BD-FE-F6-E4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0250313Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-1C-2B-BC-86-BC-F5-2E-9C-B8-05-C1-49-A8-14-52-72-40-8D-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq.Expressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-87-8B-71-7B-E8-74-6B-10-08-FD-B8-44-BB-E3-B0-62-71-6B-59">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.9783225Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="16-A8-3D-D3-CC-49-33-89-FB-E2-58-84-F9-F9-AB-20-03-9C-06-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\9bdc85c4-2725-40f4-8def-f77e980b198d\9bdc85c4-2725-40f4-8def-f77e980b198d\assembly\dl3\25c3ad5c\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:43.2710197Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-E8-B2-FE-95-57-11-09-81-41-26-29-C0-D2-3C-34-6A-42-A5-63">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2016-06-11T13:14:28Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\8f6b236b-3702-49c8-bfd6-0d8a7b91656f\8f6b236b-3702-49c8-bfd6-0d8a7b91656f\assembly\dl3\5d21e41a\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:43.5200165Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2016-08-08T22:37:58Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\4690e0e5-dd7b-4294-9c50-f946e0f362fd\4690e0e5-dd7b-4294-9c50-f946e0f362fd\assembly\dl3\9f104008\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:43.7859754Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\25b5a733-c1b8-4954-8fe0-cafaca457d4e\25b5a733-c1b8-4954-8fe0-cafaca457d4e\assembly\dl3\e891591d\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:44.0473472Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\25b5a733-c1b8-4954-8fe0-cafaca457d4e\25b5a733-c1b8-4954-8fe0-cafaca457d4e\assembly\dl3\5b095a18\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:44.27194Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\227602a6-6984-4165-ac09-38aa0af1ca03\227602a6-6984-4165-ac09-38aa0af1ca03\assembly\dl3\76f4d8f7\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:44.3579415Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\227602a6-6984-4165-ac09-38aa0af1ca03\227602a6-6984-4165-ac09-38aa0af1ca03\assembly\dl3\310c1ee2\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:44.6174575Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\d8e8a75a-455f-45b5-acfd-1141033516ae\d8e8a75a-455f-45b5-acfd-1141033516ae\assembly\dl3\6219eb80\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:44.7229395Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="D4-B4-CA-C4-04-42-B6-62-B2-C4-5B-60-5B-AA-CB-88-EB-5C-84-56">
+      <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\silentFailure.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:54:49.0573266Z</ModuleTime>
+      <ModuleName>silentFailure</ModuleName>
+      <Files>
+        <File uid="6" fullPath="C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>silentFailure.Class1</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldFail()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" offset="6" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="20" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldPass()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" offset="6" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="22" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void silentFailure.Class1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="24" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\03615f20-d725-4adf-a47f-b0795b173ebc\03615f20-d725-4adf-a47f-b0795b173ebc\assembly\dl3\a5f864f5\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:45.004237Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-E8-B2-FE-95-57-11-09-81-41-26-29-C0-D2-3C-34-6A-42-A5-63">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2016-06-11T13:14:28Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\781ac5b4-165f-4026-8333-58d81c0878d2\781ac5b4-165f-4026-8333-58d81c0878d2\assembly\dl3\e0f8a41f\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:45.2922211Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2016-08-08T22:37:58Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\86f938df-95c0-4b97-9c25-9c4a27d084c0\86f938df-95c0-4b97-9c25-9c4a27d084c0\assembly\dl3\c5cb6d7c\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:45.5867234Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\b395bc10-1fe4-4675-868e-e09811bf40fe\b395bc10-1fe4-4675-868e-e09811bf40fe\assembly\dl3\f9ce96c5\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:45.8857782Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\b395bc10-1fe4-4675-868e-e09811bf40fe\b395bc10-1fe4-4675-868e-e09811bf40fe\assembly\dl3\bdab16e7\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:46.1642816Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\3a540504-88c1-47a2-b960-f4722e22580d\3a540504-88c1-47a2-b960-f4722e22580d\assembly\dl3\558da13d\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:46.257283Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\3a540504-88c1-47a2-b960-f4722e22580d\3a540504-88c1-47a2-b960-f4722e22580d\assembly\dl3\afd902e9\00cb9b50_808ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:56:46.5127832Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-2B-88-EE-03-F5-A3-0E-59-E8-16-7B-B8-60-BF-B7-B2-44-3A-68">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.SqlXml\v4.0_4.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Data.SqlXml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>System.Xml.Xsl.CompiledQuery.1</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-11-C5-40-14-DD-EF-29-B9-4B-61-0B-E0-44-66-77-87-26-3C-F0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7595548Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D6-20-D0-CF-21-B5-CD-3C-63-A0-3F-85-84-C7-3C-3E-1B-DF-1F-AD">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.console.exe</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A7-58-FE-BD-E7-A0-1D-C9-FD-27-C1-11-E2-74-AE-E4-55-1D-FB-81">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\tools\xunit.runner.console\tools\xunit.runner.reporters.net452.dll</ModulePath>
+      <ModuleTime>2017-02-19T07:18:06Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-B0-08-80-0B-A5-95-C7-FA-79-33-2C-55-FC-56-DE-B2-D4-6F-B8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-BC-31-F6-43-B2-A8-0E-53-0D-F9-0B-70-B7-5D-8F-D4-C6-52-05">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:47.9159862Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-91-60-C5-26-07-2E-2E-54-A1-8A-32-86-67-C5-B4-A5-93-05-F9">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.7281312Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-28-6B-70-63-9D-E4-57-87-05-C1-81-C5-79-94-3B-83-FA-E0-DD">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.7283009Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BC-3D-7B-FA-41-15-98-9E-BD-CB-6E-11-CC-4E-F2-49-2D-A6-58-72">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8218895Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-6F-B8-5B-DC-B5-68-78-DD-41-47-3F-3F-E9-C3-E6-50-F8-3A-87">
+      <ModulePath>C:\Users\ghuntley\AppData\Local\Temp\ccfa05cb-5e60-41f0-b198-aa57addb38b3\ccfa05cb-5e60-41f0-b198-aa57addb38b3\assembly\dl3\046cfa42\00cb9b50_808ad201\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:57:29.8086019Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3D-D1-85-09-9C-43-A7-23-8A-38-24-7D-DF-57-1C-3F-E8-84-30">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.2884441Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="79-2F-E4-81-15-23-A9-72-6E-4B-61-08-E7-03-D3-3D-F2-DA-F6-11">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-04-27T21:18:08.4447074Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="D4-B4-CA-C4-04-42-B6-62-B2-C4-5B-60-5B-AA-CB-88-EB-5C-84-56">
+      <Summary numSequencePoints="4" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="75" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\silentFailure.dll</ModulePath>
+      <ModuleTime>2017-05-25T07:54:49.0573266Z</ModuleTime>
+      <ModuleName>silentFailure</ModuleName>
+      <Files>
+        <File uid="7" fullPath="C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\Class1.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="75" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>silentFailure.Class1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="50" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="50" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldFail()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="25" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" offset="6" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="25" ordinal="0" offset="0" sl="15" sc="13" el="15" ec="32" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void silentFailure.Class1::ThisShouldPass()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="27" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="1" uspid="28" ordinal="1" offset="6" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="27" ordinal="0" offset="0" sl="21" sc="13" el="21" ec="31" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void silentFailure.Class1::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="29" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="D1-29-63-0D-B7-95-A9-9D-B7-D4-08-A3-6F-81-87-4F-15-19-B9-C7">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.execution.dotnet.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.execution.dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-02-4A-CB-0D-89-B1-A5-EB-F8-7B-AB-52-77-A5-45-B8-9D-6B-8F">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9469001Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-66-C8-D0-90-FA-62-6B-33-AF-58-9A-78-FF-5F-A5-A4-8E-85-75">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.2436309Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-EF-2B-1F-03-26-33-E1-72-9D-C5-D3-59-F5-BE-43-D3-AD-59-0C">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.8687681Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-D7-B7-E6-9C-40-3C-A4-23-F6-67-C3-29-C8-5B-BB-BE-F2-39-F6">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0562844Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-2D-15-1B-6D-49-89-92-78-0A-0D-90-DB-18-08-79-54-D3-E6-67">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.0564541Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-86-69-4D-80-4A-CA-C6-5F-7D-BF-18-C0-2F-E0-CA-01-E6-00-4D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections.Concurrent\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FE-79-A5-A5-5E-89-A9-B1-A2-5F-4E-A0-A3-18-92-DA-E0-D6-FC-27">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-09-E4-21-D0-B0-0D-A2-4F-85-8E-48-D6-7A-C3-82-BD-FE-F6-E4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:44.0250313Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-C7-F1-D2-B6-62-A4-31-36-3F-31-93-5D-F9-9F-81-C1-48-1A-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:48.0566246Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-25-79-70-A4-96-EB-61-46-9A-7D-44-6A-F1-69-36-34-10-23-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:42.3061358Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-1C-2B-BC-86-BC-F5-2E-9C-B8-05-C1-49-A8-14-52-72-40-8D-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq.Expressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:46.118959Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-87-8B-71-7B-E8-74-6B-10-08-FD-B8-44-BB-E3-B0-62-71-6B-59">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.9783225Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="16-A8-3D-D3-CC-49-33-89-FB-E2-58-84-F9-F9-AB-20-03-9C-06-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:43.9625256Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
+      <ModulePath>C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-02-19T04:18:04Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-2B-88-EE-03-F5-A3-0E-59-E8-16-7B-B8-60-BF-B7-B2-44-3A-68">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.SqlXml\v4.0_4.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll</ModulePath>
+      <ModuleTime>2017-03-18T20:59:45.712675Z</ModuleTime>
+      <ModuleName>System.Data.SqlXml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>System.Xml.Xsl.CompiledQuery.1</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

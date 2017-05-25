@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="silentFailure.dll" configFile="" run-date="2017-05-25" run-time="15:56:42" time="0.367" total="2" passed="1" failed="1" skipped="0" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.2.0.3545">
+    <class name="silentFailure.Class1" time="0.037" total="4" passed="2" failed="2" skipped="0">
+      <test name="silentFailure.Class1.ThisShouldFail" type="silentFailure.Class1" method="ThisShouldFail" result="Fail" time="0.0301664">
+        <failure exception-type="Xunit.Sdk.TrueException">
+          <message>Assert.True() Failure\r\nExpected: True\r\nActual:   False</message>
+          <stack-trace>   at silentFailure.Class1.ThisShouldFail() in c:\dropbox\oss\ghuntley\cakerepro\silentFailure\Class1.cs:line 15</stack-trace>
+        </failure>
+      </test>
+      <test name="silentFailure.Class1.ThisShouldFail" type="silentFailure.Class1" method="ThisShouldFail" result="Fail" time="0.0007533">
+        <failure exception-type="Xunit.Sdk.TrueException">
+          <message>Assert.True() Failure\r\nExpected: True\r\nActual:   False</message>
+          <stack-trace>   at silentFailure.Class1.ThisShouldFail() in c:\dropbox\oss\ghuntley\cakerepro\silentFailure\Class1.cs:line 15</stack-trace>
+        </failure>
+      </test>
+      <test name="silentFailure.Class1.ThisShouldPass" type="silentFailure.Class1" method="ThisShouldPass" result="Pass" time="0.0057609" />
+      <test name="silentFailure.Class1.ThisShouldPass" type="silentFailure.Class1" method="ThisShouldPass" result="Pass" time="0.0000364" />
+    </class>
+  </assembly>
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="silentFailure.dll" configFile="" run-date="2017-05-25" run-time="15:56:44" time="0.003" total="2" passed="1" failed="1" skipped="0" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.2.0.3545" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+  <assembly name="" configFile="" run-date="" run-time="" time="" total="" passed="" failed="" skipped="" environment="" test-framework="" />
+</assemblies>

@@ -1,0 +1,14 @@
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\silentFailure.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\silentFailure.pdb
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.abstractions.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.assert.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.execution.dotnet.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.abstractions.xml
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.assert.xml
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.core.xml
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\bin\Release\xunit.execution.dotnet.xml
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\obj\Release\silentFailure.csprojResolveAssemblyReference.cache
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\obj\Release\silentFailure.dll
+C:\Dropbox\OSS\ghuntley\cakerepro\silentFailure\obj\Release\silentFailure.pdb
